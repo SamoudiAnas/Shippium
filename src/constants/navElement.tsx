@@ -1,5 +1,6 @@
 import { FiPackage } from "react-icons/fi";
 import { MdOutlineSpaceDashboard } from "react-icons/md";
+import { TbLogout } from "react-icons/tb";
 
 interface NavElement {
     name: string;

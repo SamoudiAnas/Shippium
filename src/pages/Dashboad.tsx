@@ -1,11 +1,18 @@
 import { TbPackage } from "react-icons/tb";
-import { Link } from "react-router-dom";
+import { Link, redirect } from "react-router-dom";
+
+//comps
 import DelayedDelivery from "../components/dashlets/DelayedDelivery";
+import UserMenu from "../components/Layout/User/UserMenu";
 
 export default function Dashboad() {
+    redirect("/login");
     return (
         <div>
-            <h1 className="text-3xl font-bold text-dark mb-16">Overview</h1>
+            <div className="flex justify-between items-center">
+                <h1 className="text-3xl font-bold text-dark mb-16">Overview</h1>
+                <UserMenu />
+            </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
                 <div className="flex justify-between items-center p-6 bg-slate-100 rounded-md">

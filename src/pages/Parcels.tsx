@@ -10,7 +10,7 @@ export default function Parcels() {
 
             <div className="flex items-center  mb-6 justify-between">
                 <div className="flex items-center gap-4">
-                    <button className=" h-12 rounded-md px-6 gap-12  bg-main text-white flex justify-between items-center hover:bg-dark hover:text-white hover:cursor-pointer">
+                    <button className=" h-12 rounded-md px-6 gap-12 bg-main text-white flex justify-between items-center hover:bg-dark hover:text-white hover:cursor-pointer">
                         <p className="font-semibold">Create shipment</p>
                         <BsPlusLg />
                     </button>
